@@ -65,6 +65,9 @@ let SamsungGalaxyS23 = {
   },
 };
 console.log(SamsungGalaxyS23);
+function Samsung() {
+  console.log(SamsungGalaxyS23);
+}
 
 function changecolor() {
   SamsungGalaxyS23.MISC.Color = "pink";
